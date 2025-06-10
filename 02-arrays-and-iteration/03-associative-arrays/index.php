@@ -1,5 +1,21 @@
 <?php
 $output = null;
+
+$user = [
+    'name' => 'John',
+    'email' => 'john@gmail.com',
+    'password' => '1234567',
+    'hobbies' => ['Tennis', 'Video Games']
+];
+
+function inspect($value) {
+    echo '<pre>';
+    var_dump($value);
+    echo '</pre>';
+}
+
+inspect($user);
+
 ?>
 
 <!DOCTYPE html>
